@@ -126,6 +126,18 @@ body {
   font-weight: 900;
   transform: none;
 }
+.attribution {
+  position: relative;
+  font-family: "Outfit", sans-serif;
+  color: hsl(216, 15%, 48%);
+  font-size: 13px;
+}
+.attribution a {
+  text-decoration: none;
+  font-size: 13px;
+  color: hsl(218, 44%, 22%);
+  font-weight: bold;
+}
 @media only screen and (min-width: 375px) {
   body {
     background-image: url("pattern-background-mobile.svg");
